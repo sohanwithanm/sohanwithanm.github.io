@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>About Soham</title>
+  <title>ALL ABOUT ME</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -18,7 +18,7 @@
     header, footer {
       font-family: 'Anton', sans-serif;
       font-size: 15px;
-      background-color: #de5500a9;
+      background-color: #772d00ef;
       color: #ffffff;
       text-align: center;
       padding: 1rem 0;
@@ -38,9 +38,10 @@
       border-radius: 50%;
       margin: 10px;
     }
+    
     .local-gallery {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
       gap: 10px;
       justify-content: center;
     }
@@ -60,7 +61,7 @@
 <body>
 
   <header>
-    <h1>Hi! I'm Soham</h1>
+    <h1>ALL ABOUT ME</h1>
   </header>
 
   <div class="container">
@@ -72,11 +73,12 @@
 
     <!-- Profile and Local Pictures Section -->
     <section id="photos">
-      <h2>ME!</h2>
+      <h3>me</h3>
       <div style="text-align: center;">
         
         <img src="images/pfp.jpeg" alt="Profile Pic" class="profile-img">
       </div>
+      <h3>my hometown</h3>
       <div class="local-gallery">
         <img src="images/img1.jpeg" alt="view 1" class="local-img">
         <img src="images/img2.jpeg" alt="view 2" class="local-img">
